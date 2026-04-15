@@ -2,7 +2,6 @@
     "name": "arjundhi/module-category-bottom-description",
     "description": "Adds a WYSIWYG-enabled bottom description attribute to Magento category pages.",
     "type": "magento2-module",
-    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "magento",
