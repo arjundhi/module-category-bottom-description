@@ -1,0 +1,43 @@
+{
+    "name": "arjundhi/module-category-bottom-description",
+    "description": "Adds a WYSIWYG-enabled bottom description attribute to Magento category pages.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "magento",
+        "magento2",
+        "category",
+        "description",
+        "wysiwyg"
+    ],
+    "support": {
+        "issues": "https://github.com/arjundhi/module-category-bottom-description/issues",
+        "source": "https://github.com/arjundhi/module-category-bottom-description"
+    },
+    "require": {
+        "php": "^8.1 || ^8.2 || ^8.3",
+        "magento/framework": "^103.0",
+        "magento/module-catalog": "^104.0",
+        "magento/module-eav": "^102.1",
+        "magento/module-ui": "^101.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Rameera\\CategoryBottomDescription\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Rameera/CategoryBottomDescription"
+            ]
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

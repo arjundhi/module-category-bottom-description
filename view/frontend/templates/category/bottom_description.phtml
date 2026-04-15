@@ -1,0 +1,12 @@
+<?php
+/** @var \Rameera\CategoryBottomDescription\Block\Category\BottomDescription $block */
+
+$bottomDescriptionHtml = $block->getBottomDescriptionHtml();
+
+if (!$block->canRender()) {
+    return;
+}
+?>
+<div class="category-bottom-description" data-role="category-bottom-description">
+    <?= /* @noEscape */ $bottomDescriptionHtml ?>
+</div>
