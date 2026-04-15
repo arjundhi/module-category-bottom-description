@@ -16,7 +16,7 @@ This attribute is store-view scoped and is intended for content that should appe
 ## Compatibility
 
 - Magento Open Source / Adobe Commerce `2.4.4` and later in the `2.4.x` line.
-- PHP `8.1`, `8.2`, and `8.3`.
+- PHP `8.1`, `8.2`, `8.3`, and `8.4`.
 
 ## Installation
 
