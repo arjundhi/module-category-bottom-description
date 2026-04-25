@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Rameera\CategoryBottomDescription\Setup;
+namespace MageMatch\CategoryBottomDescription\Setup;
 
 use Magento\Catalog\Setup\CategorySetup;
 use Magento\Framework\ObjectManagerInterface;

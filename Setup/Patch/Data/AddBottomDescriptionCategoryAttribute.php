@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Rameera\CategoryBottomDescription\Setup\Patch\Data;
+namespace MageMatch\CategoryBottomDescription\Setup\Patch\Data;
 
 use Magento\Catalog\Model\Category;
 use Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
-use Rameera\CategoryBottomDescription\Setup\CategorySetupFactory;
+use MageMatch\CategoryBottomDescription\Setup\CategorySetupFactory;
 
 class AddBottomDescriptionCategoryAttribute implements DataPatchInterface
 {

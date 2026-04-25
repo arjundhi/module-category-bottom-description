@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Rameera\CategoryBottomDescription\Block\Category;
+namespace MageMatch\CategoryBottomDescription\Block\Category;
 
 use Magento\Catalog\Model\Category;
 use Magento\Framework\Registry;

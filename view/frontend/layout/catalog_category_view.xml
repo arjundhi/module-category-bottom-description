@@ -4,9 +4,9 @@
     <body>
         <referenceContainer name="content">
             <block
-                class="Rameera\CategoryBottomDescription\Block\Category\BottomDescription"
+                class="MageMatch\CategoryBottomDescription\Block\Category\BottomDescription"
                 name="category.bottom.description"
-                template="Rameera_CategoryBottomDescription::category/bottom_description.phtml"
+                template="MageMatch_CategoryBottomDescription::category/bottom_description.phtml"
                 after="category.products.list"/>
         </referenceContainer>
     </body>

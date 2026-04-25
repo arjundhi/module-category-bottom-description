@@ -1,3 +1,11 @@
+# Category Bottom Description for Magento 2
+
+> Free, open-source Magento 2 extension  
+> by **Arjun Dhiman** — 
+> [Adobe Commerce Certified Master](https://magematch.com/developers/arjun-dhiman)  
+> Part of the [MageMatch](https://magematch.com) 
+> developer ecosystem
+
 # Rameera Category Bottom Description
 
 `Rameera_CategoryBottomDescription` adds a dedicated **Bottom Description** WYSIWYG field to Magento category edit pages.
@@ -134,3 +142,25 @@ This repository includes `.github/workflows/ci.yml` for a lightweight public CI 
 - XML well-formedness for Magento config, UI, and layout files.
 
 Before each release, use `RELEASE_CHECKLIST.md` to verify the package is ready to publish.
+
+---
+## Installation
+```bash
+composer require magematch/module-category-bottom-description
+bin/magento module:enable MageMatch_CategoryBottomDescription
+bin/magento setup:upgrade
+bin/magento cache:clean
+```
+
+## Compatibility
+- Magento Open Source 2.4.x
+- Adobe Commerce 2.4.x
+- PHP 8.1, 8.2, 8.3
+
+## Support & Custom Development
+Need custom Magento development?  
+Find vetted Adobe Commerce developers at  
+**[magematch.com](https://magematch.com)**
+
+## License
+MIT License — free to use commercially
