@@ -6,9 +6,9 @@
 > Part of the [MageMatch](https://magematch.com) 
 > developer ecosystem
 
-# Rameera Category Bottom Description
+# MageMatch Category Bottom Description
 
-`Rameera_CategoryBottomDescription` adds a dedicated **Bottom Description** WYSIWYG field to Magento category edit pages.
+`MageMatch_CategoryBottomDescription` adds a dedicated **Bottom Description** WYSIWYG field to Magento category edit pages.
 
 This attribute is store-view scoped and is intended for content that should appear below the product listing on category pages.
 
@@ -32,12 +32,12 @@ This attribute is store-view scoped and is intended for content that should appe
 
 Place the module under:
 
-`app/code/Rameera/CategoryBottomDescription`
+`app/code/MageMatch/CategoryBottomDescription`
 
 Then run:
 
 ```bash
-php bin/magento module:enable Rameera_CategoryBottomDescription
+php bin/magento module:enable MageMatch_CategoryBottomDescription
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```
@@ -48,7 +48,7 @@ Add your repository to the project `composer.json`, then require the package:
 
 ```bash
 composer require arjundhi/module-category-bottom-description
-php bin/magento module:enable Rameera_CategoryBottomDescription
+php bin/magento module:enable MageMatch_CategoryBottomDescription
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```
@@ -79,9 +79,9 @@ If you want to override the built-in placement in your theme or custom module la
 ```xml
 <referenceContainer name="content">
 	<block
-		class="Rameera\CategoryBottomDescription\Block\Category\BottomDescription"
+		class="MageMatch\CategoryBottomDescription\Block\Category\BottomDescription"
 		name="category.bottom.description"
-		template="Rameera_CategoryBottomDescription::category/bottom_description.phtml"
+		template="MageMatch_CategoryBottomDescription::category/bottom_description.phtml"
 		after="category.products.list"
 	/>
 </referenceContainer>
@@ -92,7 +92,7 @@ The included template renders the attribute only when the category has content, 
 ### Disable or override the default layout
 
 - Remove the module block in your custom theme layout if you want full control over placement.
-- Reuse the included template `Rameera_CategoryBottomDescription::category/bottom_description.phtml` in your own block or container.
+- Reuse the included template `MageMatch_CategoryBottomDescription::category/bottom_description.phtml` in your own block or container.
 - Override `view/frontend/layout/catalog_category_view.xml` in your theme if you want to move the output elsewhere on category pages.
 
 ## Module Structure
@@ -131,7 +131,7 @@ git commit -m "Initial public release"
 git tag -a v1.0.0 -m "Version 1.0.0"
 ```
 
-If this module lives inside a larger Magento project today, copy `app/code/Rameera/CategoryBottomDescription` into its own repository root before running the commands above.
+If this module lives inside a larger Magento project today, copy `app/code/MageMatch/CategoryBottomDescription` into its own repository root before running the commands above.
 
 ## CI
 
