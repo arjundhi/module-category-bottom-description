@@ -47,7 +47,7 @@ php bin/magento cache:flush
 Add your repository to the project `composer.json`, then require the package:
 
 ```bash
-composer require arjundhi/module-category-bottom-description
+composer require magematch/module-category-bottom-description
 php bin/magento module:enable MageMatch_CategoryBottomDescription
 php bin/magento setup:upgrade
 php bin/magento cache:flush
