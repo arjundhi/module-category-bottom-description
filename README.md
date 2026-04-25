@@ -6,8 +6,6 @@
 > Part of the [MageMatch](https://magematch.com) 
 > developer ecosystem
 
-# MageMatch Category Bottom Description
-
 `MageMatch_CategoryBottomDescription` adds a dedicated **Bottom Description** WYSIWYG field to Magento category edit pages.
 
 This attribute is store-view scoped and is intended for content that should appear below the product listing on category pages.
@@ -20,38 +18,6 @@ This attribute is store-view scoped and is intended for content that should appe
 - Includes an optional ready-to-use category layout handle.
 - Ships as a Composer-ready Magento 2 module.
 - Supports modern Magento 2.4 installations.
-
-## Compatibility
-
-- Magento Open Source / Adobe Commerce `2.4.4` and later in the `2.4.x` line.
-- PHP `8.1`, `8.2`, `8.3`, and `8.4`.
-
-## Installation
-
-### Install from app/code
-
-Place the module under:
-
-`app/code/MageMatch/CategoryBottomDescription`
-
-Then run:
-
-```bash
-php bin/magento module:enable MageMatch_CategoryBottomDescription
-php bin/magento setup:upgrade
-php bin/magento cache:flush
-```
-
-### Install with Composer (VCS repository)
-
-Add your repository to the project `composer.json`, then require the package:
-
-```bash
-composer require magematch/module-category-bottom-description
-php bin/magento module:enable MageMatch_CategoryBottomDescription
-php bin/magento setup:upgrade
-php bin/magento cache:flush
-```
 
 ## Usage
 
@@ -115,10 +81,6 @@ The included template renders the attribute only when the category has content, 
 
 - Storefront placement remains theme-controlled, but the module now ships with a ready-to-use example block and template.
 - If you are replacing an older custom module that used the same attribute code, existing attribute data can still be reused.
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Release Workflow
 
